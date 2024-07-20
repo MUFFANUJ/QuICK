@@ -10,7 +10,7 @@ int main()
     {
         for (int j = 1; j <= i; j++)
         {
-            cout << to_string(j) + " ";
+            cout << to_string(j) + " "; // j << " ";
         }
         cout << "\n";
     }
