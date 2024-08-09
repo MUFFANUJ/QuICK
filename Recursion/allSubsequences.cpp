@@ -1,4 +1,6 @@
 // using btake or not take
+// timeComplexity = O(n*2^n)
+//spaceComplexity = O(n)
 #include <bits/stdc++.h>
 using namespace std;
 
