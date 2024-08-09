@@ -25,7 +25,10 @@ bool action(int index,vector<int> arr, vector<int> &ds, int size,int sum,int s){
   }
   s -= arr[index];
   ds.pop_back();
-  action(index+1,arr,ds,size,sum,s);
+  if(action(index+1,arr,ds,size,sum,s)){
+    return true;
+  }
+  return false;
 }
 
 
