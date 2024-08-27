@@ -8,3 +8,5 @@ for i in range(n):
 for i in range(np):
   print(countArr[(ord(input()) - ord('a'))]) # here just calling back the index 
   
+
+#always use arrays for hashing
