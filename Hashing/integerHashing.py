@@ -8,4 +8,4 @@ for i in range(n):
 for i in range(np):
   print(countArr[int(input())])
   
-# the complexity here is O(n) if we compute this one by one the complexity would have been O(X*n) where X is the number of inputs fow which we are checking the counts
+# the complexity here is O(n) if we compute this one by one the complexity would have been O(X*n) where X is the number of inputs fow which we are checking the counts.
