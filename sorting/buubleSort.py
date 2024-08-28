@@ -17,7 +17,7 @@ print(*arr)
 #reverse solution with condition
 arr = list(map(int, input().split()))
 for i in range(len(arr)-1,0,-1):
-  isSwapped = False
+  isSwapped = False  #complexity O(N) -> best case
   for j in range(i):
     if arr[j] > arr[j+1]:
       temp = arr[j+1]
