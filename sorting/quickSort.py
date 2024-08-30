@@ -1,6 +1,8 @@
 # here we pick one pivort and place it in its correct position in the array and then dive the array in left and right part and repeat the same steps again take the pivort and place it in its correct position until we reach one element in our imaginary array one element is always sorted hence it sorts the array 
 
-# the time complexity is as same as merge sort O(n*log n) but here we are not having any temporary array so the space complexity here is O(1) because we are only using the variables low and high.
+# the time complexity is as same as merge sort O(n*log n) but here we are not having any temporary array so the space complexity here is O(1) (excluding the recurrsion stack space) because we are only using the variables low and high.
+
+# this follows the fundamental of divide and conqueror
 
 arr = list(map(int, input().split()))
 
