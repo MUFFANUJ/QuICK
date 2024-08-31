@@ -1,0 +1,1 @@
+1. In any interview even if you know the most optimal solution do not straight away give the most optimal one start with the brute Force solution then go to better solution and then to the optimal one.
