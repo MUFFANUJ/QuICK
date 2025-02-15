@@ -5,6 +5,8 @@
 # for ex - arr[low] < arr[high] will tell us if whole array is sorted or not if we find the whole array is sorted
 # there is no need to perfofm further binary search we can directly compare and return the minimum 
 
+
+#TC - O(log n) base 2 SC - O(1)
 def lowerSearch(arr, n ):
     low = 0
     high = n-1
